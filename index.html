@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+  <title>Shubham Portfolio</title>
+  <style>
+    *  {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  max-width: 100%;
+  overflow-x: hidden; /* ✅ Important to prevent horizontal scroll */
+}
+
+    body {
+     
+  font-family: Arial, sans-serif;
+  background: linear-gradient(90deg, #98ccdb 0%, #f869e5 100%);
+  color: #000;
+    overflow-x: hidden;
+      max-width: 100%;
+    }
+
+    header {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 10px 5px;
+    }
+
+    header h1 {
+      font-variant: small-caps;
+      margin-bottom: 5px;
+    }
+
+    nav.navebar {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      background-color: #333;
+      padding: 10px;
+    }
+
+    nav.navebar a {
+      color: white;
+      text-decoration: none;
+      transition: transform 0.2s ease, color 0.3s ease;
+      size: 5px;
+    }
+
+    nav.navebar a:hover {
+      transform: translateY(-3px);
+      color: lightblue;
+    }
+
+   
+    .plain-profile-img {
+      display: block;
+      margin: 15px auto 10px auto;
+      width: 220px;
+      height: 220px;
+      object-fit: cover;
+      box-shadow: 0 15px 20px rgba(22, 23, 23, 0.8);
+    }
+
+    .section-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      padding: 20px;
+    }
+
+    .sections {
+      background-color: #fbeeff;
+      border-radius: 25px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+      padding: 20px;
+      flex: 1 1 500px;
+      max-width: 1000px;
+      transition: transform 0.3s ease;
+      border-left: 10px solid #802874;
+     
+    }
+
+    .sections:hover {
+      transform: translateY(-10px);
+    }
+
+    .sections h4 {
+      margin-bottom: 10px;
+    }
+
+    .sections span {
+     background: linear-gradient(to right , #f869e5, #e5b7f3);
+     border-radius: 5px;
+    }
+
+    .sections p {
+      text-align: justify;
+      margin-bottom: 10px;
+    }
+
+    ol, ul {
+      padding-left: 20px;
+    }
+
+    footer {
+      text-align: center;
+      background-color: #333;
+      color: white;
+      padding: 10px;
+      font-size: 14px;
+    }
+
+    @media (max-width: 600px) {
+      nav.navebar {
+        flex-direction: row;
+        gap: 10px;
+      }
+
+     
+    }
+    img{
+      border-radius: 150px;
+      border-width: 4px;
+    }
+    
+  h2{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     text-shadow: 0 0.9px 1.8px #000;
+     color:  #1f1c1c;
+  }
+    
+  
+  h5{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+     text-shadow: 0 0.8px 1.6px #000;
+     color: #1f1c1c;
+  }
+   
+
+ nav {
+    font-size: 9px;
+  }
+  h3{
+    font-size: 35px;
+  }
+  section{
+    font-size: 15px;
+  }
+  </style>
+</head>
+<body>
+
+<header>
+  <h3  style=" font-family: Georgia, 'Times New Roman', Times, serif; color: rgb(35, 177, 30); " ><b>! Welcome ! </b> </h3>
+ 
+  <nav class="navebar">
+    <a href="#about">About Me</a>|
+    <a href="#Q">Qualification</a>|
+    <a href="#skills">Skills</a>|
+    <a href="#projects">Mini Projects</a>|
+    <a href="#C">Contact</a>
+  </nav>
+</header>
+
+<!-- ✅ Image directly added here -->
+
+ <img src="shubham_photo.png" alt="Shubham Sonawane" class="plain-profile-img" data-aos="fade-up" data-aos-duration="1800"><br>
+  <div data-aos="fade-up" data-aos-duration="2500">
+  <h2 > SHUBHAM SONAWANE</h2>
+   <h5 > AI and Data Science Student</h5>
+   </div>
+   &nbsp;  &nbsp; &nbsp;
+<div class="section-container">
+ 
+  <section  class="sections" id="about" data-aos="fade-left">
+    <h4 style="text-align: center;"><span>&nbsp;About Me&nbsp; </span></h4>
+    <p><b>Hello!</b><br><br>
+       &nbsp; &nbsp;&nbsp;  My name is <b>Shubham Sonawane</b>. I am from Nashik, Maharashtra. I have completed my 10th and 12th from the Maharashtra State Board and am currently pursuing my B.Tech from Zeal College of Engineering, Pune. I am a hardworking and curious person who loves to learn new things. My hobbies are playing cricket and watching movies. I am excited to grow and improve myself every day.
+    </p>
+  </section>
+
+  <section class="sections" id="Q" data-aos="fade-left">
+    <h4 style="text-align: center;"><span>&nbsp;Qualification&nbsp; </span></h4>
+    <p>&nbsp;&nbsp;&nbsp; I am a B.Tech student in Artificial Intelligence and Data Science, having completed my first year. I recently completed an internship at Manasvi Tech Solutions pvt.ltd Nashik,  I've gained basic skills in Python, HTML, CSS, JavaScript, and continue to learn and grow in the tech field.</p>
+  </section>
+
+  <section class="sections" id="skills" data-aos="fade-left">
+    <h4 style="text-align: center;"><span>&nbsp;Technical Skills&nbsp; </span></h4>
+    <p>
+      Programming Languages: Python (basic)<br>
+      Web Technologies: HTML (basic)<br>
+      Tools & Platforms: VS Code, GitHub , CHATGPT<br>
+      Others: Basic IT proficiency, Microsoft Office, Microsoft PowerPoint , Excel etc
+    </p>
+  </section>
+
+  <section class="sections" id="projects" data-aos="fade-left" >
+    <h4 style="text-align: center;"><span>&nbsp;Mini Projects&nbsp; </span></h4>
+    <ul>
+      <li><a href="#">1. Percentage Calculator</a></li>
+      <li><a href="#">2. Portfolio</a></li>
+    </ul>
+  </section>
+
+  <section class="sections" id="C" data-aos="fade-left">
+    <h4 style="text-align: center;"><span>&nbsp;Contact&nbsp; </span></h4>
+    <ul>
+      <li>Email: <a href="mailto:shubhamp9307sonavane@gmail.com">shubhamp9307sonavane@gmail.com</a></li>
+      <li>GitHub: sonavaneshubh</li>
+      <li>LinkedIn: <a href="https://www.linkedin.com/in/shubham-sonawane-4223b7332">Click to view profile</a></li>
+    </ul>
+  </section>
+</div>
+
+<footer>© 2025 Shubham Sonawane</footer>
+
+</body>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init({
+    duration: 1300,
+    easing: 'ease-in-out',
+    once: true
+  });
+
+</script>
+<script>
+  AOS.init();
+</script>
+
+</html>
